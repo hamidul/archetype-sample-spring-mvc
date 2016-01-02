@@ -8,3 +8,7 @@ Step 2: Install the archetype by mvn clean install
 Step 3: Create new Spring MVC Project by the installed archetype mentioned in Step 2 by the below command 
 
 mvn archetype:generate -DarchetypeCatalog=local
+
+Step 4: Before importing in eclipse run 
+
+mvn eclipse:eclipse -Dwtpversion=2.0
